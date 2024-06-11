@@ -7,18 +7,9 @@ const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 
 
+// const Charts = React.lazy(() => import('./views/charts/Charts'))
 
-
-
-
-
-const Charts = React.lazy(() => import('./views/charts/Charts'))
-
-
-
-
-
-const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
+// const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 // Forget Password
 const ForgetPassword = React.lazy(() => import('./views/pages/login/Forget'))
@@ -66,34 +57,34 @@ const routes = [
   { path: '/theme/colors', name: 'Colors', element: Colors },
 
  
-  { path: '/charts', name: 'Charts', element: Charts },
+  // { path: '/charts', name: 'Charts', element: Charts },
  
 
-  { path: '/widgets', name: 'Widgets', element: Widgets },
+  // { path: '/widgets', name: 'Widgets', element: Widgets },
 
   {path:'/profile', name: 'profile', element: Profile},
 
 
 
-  {path:'/size/addsize', name: 'addsize', element: Size},
-  {path:'/size/viewsize', name: 'viewsize', element: ViewSize},
-  {path:'/size/updatesize', name: 'updatesize', element: UpdateSize},
+  {path:'/size/addsize', name: 'Add size', element: Size},
+  {path:'/size/viewsize', name: 'View size', element: ViewSize},
+  {path:'/size/updatesize', name: 'Update size', element: UpdateSize},
   
-  {path:'/parentcategory/addcategory', name: 'AddCategory', element: AddCategory},
-  {path:'/parentcategory/viewcategory', name: 'ViewCategory', element: ViewCategory},
-  {path:'/parentcategory/updatecategory', name: 'updateCategory', element: UpdateCategory},
+  {path:'/parentcategory/addcategory', name: 'Add Category', element: AddCategory},
+  {path:'/parentcategory/viewcategory', name: 'View Category', element: ViewCategory},
+  {path:'/parentcategory/updatecategory', name: 'Update Category', element: UpdateCategory},
 
-  {path:'/productcategory/addcategory', name: 'AddCategory', element: ProductCategory},
-  {path:'/productcategory/viewcategory', name: 'ViewCategory', element: ViewProductCategory},
-  {path:'/productcategory/updatecategory', name: 'UpdateCategory', element: UpdateProductCategory},
+  {path:'/productcategory/addcategory', name: 'Add Category', element: ProductCategory},
+  {path:'/productcategory/viewcategory', name: 'View Category', element: ViewProductCategory},
+  {path:'/productcategory/updatecategory', name: 'Update Category', element: UpdateProductCategory},
 
-  {path:'/product/addproduct', name: 'AddProduct', element: Productitems},
-  {path:'/product/viewproduct', name: 'ViewProduct', element: ViewProduct},
-  {path:'/product/updateproduct', name: 'UpdateProduct', element: UpdateProduct},
+  {path:'/product/addproduct', name: 'Add Product', element: Productitems},
+  {path:'/product/viewproduct', name: 'View Product', element: ViewProduct},
+  {path:'/product/updateproduct', name: 'Update Product', element: UpdateProduct},
 
   {path:'/story/storydetails', name: 'Story', element: Story},
-  {path:'/story/storyview', name: 'Story', element: StoryView},
-  {path:'/story/updateview', name: 'UpdateStory', element: UpdateStory},
+  {path:'/story/storyview', name: 'View Story', element: StoryView},
+  {path:'/story/updateview', name: 'Update Story', element: UpdateStory},
 
   {path:'/orders', name: 'Orders', element: Orders},
 

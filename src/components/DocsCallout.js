@@ -7,8 +7,7 @@ const DocsCallout = (props) => {
 
   const plural = name.slice(-1) === 's' ? true : false
 
-  const _href = `https://coreui.io/react/docs/${href}`
-
+  
   return (
     <CCallout color="info" className="bg-white">
       {content
@@ -21,7 +20,7 @@ const DocsCallout = (props) => {
       <br />
       <br />
       For more information please visit our official{' '}
-      <CLink href={_href} target="_blank">
+      <CLink href='#' target="_blank">
         documentation of CoreUI Components Library for React.js
       </CLink>
       .

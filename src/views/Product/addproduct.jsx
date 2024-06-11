@@ -45,6 +45,9 @@ export default function addproduct() {
         <CFormLabel className='py-2'>Product Image</CFormLabel>
         <CFormInput type="file" className='my-2'  aria-label="readonly input example"/>
 
+        <CFormLabel className='py-2'>Image Animation</CFormLabel>
+        <CFormInput type="file" className='my-2'  aria-label="readonly input example"/>
+
         <CFormLabel className='py-2'>Product Gallary</CFormLabel>
         <CFormInput
           type='file'
